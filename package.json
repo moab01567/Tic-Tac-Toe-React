@@ -8,7 +8,9 @@
     "client:install": "cd client && npm install",
     "server:install": "cd server && npm install",
     "dev": "concurrently \"npm run client:dev\"",
-    "client:dev": "cd client && npm run dev"
+    "client:dev": "cd client && npm run dev",
+    "build": "npm run client:build",
+    "client:build": "cd client && npm run build"
   },
   "keywords": [],
   "author": "",
