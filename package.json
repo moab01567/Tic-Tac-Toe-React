@@ -13,7 +13,7 @@
     "server:install": "cd server && npm install",
     "dev": "concurrently \"npm run client:dev\"",
     "client:dev": "cd client && npm run dev",
-    "build": "concurrently \"npm run client:build\" \"npm run server:start\"",
+    "build": "npm run client:build && npm run server:start",
     "client:build": "cd client && npm run build",
     "server:start": "cd server && npm run start"
   },
