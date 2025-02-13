@@ -14,12 +14,8 @@
   "dependencies": {
     "express": "^4.21.2",
     "nodemon": "^3.1.9",
-    "ts-node": "^10.9.2"
-  },
-  "devDependencies": {
-    "@types/cors": "^2.8.17",
+    "ts-node": "^10.9.2",
     "@types/express": "^5.0.0",
-    "ts-node-dev": "^2.0.0",
     "typescript": "^5.7.3"
   }
 }
