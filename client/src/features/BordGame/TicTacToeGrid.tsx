@@ -21,8 +21,8 @@ export default function TicTacToeGrid({TicTacToeSize}:Props){
         display: "grid",
         width: "100%",
         height:"100%",
-        gridTemplateColumns: getTicTacToeGridWithGameLines(gridWithGameLinesSize),
-        gridTemplateRows: getTicTacToeGridWithGameLines(gridWithGameLinesSize),
+        gridTemplateColumns: "1fr 2px 1fr 2px 1fr"  ,
+        gridTemplateRows: "1fr 2px 1fr 2px 1fr",
         background:"yellow"};
 
     return (

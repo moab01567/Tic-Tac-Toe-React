@@ -9,7 +9,17 @@ interface Props{
 
 export default function FieldSelected(){
 
-    return <>
+    const filedStyle = {background:"blue",
+        display: "flex",
+        justifyContent:"center",
+        alignItems:"center",
+        gridColumn:"1",
+        gridRow:"1",
+    }
 
+    return <>
+        <div style={filedStyle}>
+            hei, love u jani ❤️❤️❤️❤️
+        </div>
     </>
 }

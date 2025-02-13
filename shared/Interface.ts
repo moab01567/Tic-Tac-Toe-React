@@ -1,5 +1,11 @@
 
-interface Filed{
-    win_filed_key: number[][]
+
+
+
+interface GameTicTacToe{
+    gameCode:string;
+    player1:string;
+    player2:string
 }
+
 
